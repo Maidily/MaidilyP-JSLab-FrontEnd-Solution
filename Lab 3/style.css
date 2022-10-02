@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    min-width: 650px;
+    background-image: url("bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Sans-serif;
+    font-size: 25px;
+    margin: auto;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.356);
+    background-size: cover;
+    width: auto;
+    height: auto;
+    padding: 5% 0%;
+}
+
+input {
+    padding: 1%;
+    border-radius: 20px;
+    background-color: rgba(245, 245, 245, 0.963);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    width: 18%;
+    font-size: 15px;
+}
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 60px;
+    text-shadow: 2px 4px #000000;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#place {
+    font-size: 35px;
+}
+
+#date {
+    font-size: 18px;
+}
+
+#weather {
+    font-style: italic;
+}
